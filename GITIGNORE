@@ -1,0 +1,28 @@
+
+---
+
+### 2. **.gitignore**
+
+```gitignore
+# Ignorar arquivos temporários e de configuração
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.env
+*.env
+
+# Ignorar arquivos de dados locais
+data/*.csv
+data/*.xlsx
+
+# Ignorar pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas do Jupyter
+*.nbconvert.ipynb
+*.checkpoint.ipynb
+
+# Ignorar dependências de ambientes virtuais
+venv/
